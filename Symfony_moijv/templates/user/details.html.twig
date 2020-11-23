@@ -1,0 +1,24 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ parent() }} Profil{% endblock %}
+
+{% block body %}
+    <section class="row my-4 mb-3">
+        <div class="col-3">
+            <img class="img-fluid" src="{{ user.avatar ? asset(user.avatar) : 'http://placehold.it/300x300' }}" alt="Avatar">
+        </div>
+        <div class="col-9">
+            <h2>{{ user.firstname }} {{ user.lastname }}</h2>
+            <p>Inscrit le {{ user.datInscription | date('d/m/Y') }}</p>
+            <p>Description : {{ user.description }}</p>
+        </div>
+    </section>
+    <section>
+        <ul>
+            {% for game in user.games %}
+                <li><a href="{{ path('game_details', { id: game.id }) }}">{{ game.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock %}
