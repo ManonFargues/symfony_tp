@@ -2,6 +2,7 @@
 
 namespace App\Repository;
 
+use App\Entity\Category;
 use App\Entity\Game;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
@@ -26,6 +27,17 @@ class GameRepository extends ServiceEntityRepository
         $query = $this->createQueryBuilder('g') // SELECT game as g
             ->orderBy('g.date_add', 'DESC') // ORDER B g.date_add DESC
             ->getQuery();
+
+        return $paginator->paginate($query, $page, 9);
+    }
+
+    public function getLatestPaginatedGamesByCategory( Category $category, PaginatorInterface $paginator, $page = 1)
+    {
+        $query = $this->createQueryBuilder('g') // SELECT game as g
+        ->where('g.category = :category')
+        ->setParameter('category', $category)
+        ->orderBy('g.date_add', 'DESC') // ORDER B g.date_add DESC
+        ->getQuery();
 
         return $paginator->paginate($query, $page, 9);
     }

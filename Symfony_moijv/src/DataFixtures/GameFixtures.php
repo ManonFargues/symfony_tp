@@ -2,6 +2,7 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\Category;
 use App\Entity\Game;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
@@ -20,8 +21,10 @@ class GameFixtures extends Fixture implements DependentFixtureInterface
             $game->setDateAdd($faker->dateTimeBetween('-2 years', 'now'));
             $game->setDescription($faker->text(300));
             $game->setUser($this->getReference('user'.random_int(0, UserFixtures::USER_COUNT - 1)));
+            $game->setCategory($this->getReference('category'.random_int( 0, count(CategoryFixtures::CATEGORIES) -1)));
             $manager->persist($game);
         }
+
 
         $manager->flush();
     }

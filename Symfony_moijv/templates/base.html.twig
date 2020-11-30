@@ -52,9 +52,9 @@
 
             <h1 class="my-4">MoiJV</h1>
             <div class="list-group">
-                <a href="#" class="list-group-item">Category 1</a>
-                <a href="#" class="list-group-item">Category 2</a>
-                <a href="#" class="list-group-item">Category 3</a>
+                {% for category in category_repo.findAll() %}
+                <a href="{{ path('games_by_category', { slug: category.slug }) }}" class="list-group-item">{{ category.name }}</a>
+                {% endfor %}
             </div>
 
         </div>

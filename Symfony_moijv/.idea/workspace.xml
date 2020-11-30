@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7d1aa75-4dcd-4030-98a6-0d4d75676155" name="Default Changelist" comment="" />
+    <list default="true" id="c7d1aa75-4dcd-4030-98a6-0d4d75676155" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +30,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -98,6 +121,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kMhlsQgWw6XZST4ktg0rQz47j6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/moijv_ynov" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -128,21 +152,36 @@
       <workItem from="1606120669293" duration="25000" />
       <workItem from="1606120696373" duration="13768000" />
       <workItem from="1606138780062" duration="1117000" />
+      <workItem from="1606676725835" duration="23000" />
+      <workItem from="1606676750118" duration="1383000" />
+      <workItem from="1606723271118" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1353" y="218" width="407" height="636" key="#com.intellij.ide.util.MemberChooser" timestamp="1606120738703">
       <screen x="0" y="37" width="1920" height="996" />
     </state>
     <state x="1353" y="218" width="407" height="636" key="#com.intellij.ide.util.MemberChooser/0.37.1920.996@0.37.1920.996" timestamp="1606120738703" />
-    <state x="1341" y="293" width="430" height="486" key="FileChooserDialogImpl" timestamp="1606139895506">
+    <state x="1341" y="293" width="430" height="486" key="FileChooserDialogImpl" timestamp="1606676746252">
       <screen x="0" y="37" width="1920" height="996" />
     </state>
-    <state x="1341" y="293" width="430" height="486" key="FileChooserDialogImpl/0.37.1920.996@0.37.1920.996" timestamp="1606139895506" />
+    <state x="1341" y="293" width="430" height="486" key="FileChooserDialogImpl/0.37.1920.996@0.37.1920.996" timestamp="1606676746252" />
     <state x="1225" y="449" width="546" height="173" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605533758895">
       <screen x="0" y="37" width="1920" height="996" />
     </state>
